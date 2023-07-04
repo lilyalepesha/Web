@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+
+<body>
+	<script src="js/script.js"></script>
+
+	<script>
+		const menuLinks = document.querySelectorAll('.menu__link[data-goto]');
+		if (menuLinks.length > 0) {
+			function onMenuLinkClick(e) { // Исправлено
+				const menuLink = e.target;
+				if (menuLink.dataset.goto && document.querySelector(menuLink.dataset.goto)) {
+					const gotoBlock = document.querySelector(menuLink.dataset.goto);
+					const gotoBlockValue = gotoBlock.getBoundingClientRect().top + window.pageYOffset - document.querySelector('header').offsetHeight - 20;
+					if (iconMenu.classList.contains('_active')) {
+						document.body.classList.remove('_lock');
+						iconMenu.classList.remove('_active');
+						menuBody.classList.remove('_active');
+					}
+					window.scrollTo({
+						top: gotoBlockValue,
+						behavior: "smooth"
+					});
+					e.preventDefault();
+				}
+			}
+			menuLinks.forEach(menuLink => {
+				menuLink.addEventListener("click", onMenuLinkClick); // Исправлено
+			});
+		}
+	</script>
+	<button onclick="alert('Привет')">Щелкните меня!</button>
+	<a href="JavaScript:alert('Внимание!!!');">Кликни здесь</a>
+</body>
+
+</html>

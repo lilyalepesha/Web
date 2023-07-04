@@ -1,0 +1,102 @@
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+  div {
+	margin-bottom: 10px;
+  }
+  
+  label {
+	display: block;
+	font-weight: bold;
+  }
+  
+  input, textarea {
+	width: 100%;
+	padding: 5px;
+  }
+  
+  button {
+	padding: 10px 20px;
+	margin: 0px 25px;
+	max-width: 200px;
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	cursor: pointer;
+  }
+
+  .contact-form {
+	background-color: rgb(242, 242, 242);
+	min-height: 250px;
+	min-width: 400px;
+	width: 50%;
+  }
+
+  .input-container {
+	position: relative;
+	margin-bottom: 15px;
+	padding-left: 25px;
+  }
+  
+  .input-container i {
+	position: absolute;
+	left: 10px;
+	top: 50%;
+	transform: translateY(-50%);
+	color: #888;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 20px;
+  }
+  
+
+
+.input-container {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.input-container label {
+  display: block;
+  font-weight: bold;
+}
+
+.input-container input,
+.input-container textarea {
+  padding-left: 30px;
+}
+
+.input-container .required {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  box-sizing: border-box;
+  width: 95%;
+  padding: auto;
+  
+}
+
+button {
+	margin: 20px 25px;
+}
+
+h1 {
+	padding-left: 25px;
+	font-weight: 300;
+}
+
+textarea {
+	height: 150px;
+	max-width: 95%;
+}
+
+label {
+	padding-bottom: 7px;
+}

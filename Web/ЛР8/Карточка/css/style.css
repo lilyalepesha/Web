@@ -1,0 +1,148 @@
+  .flower-card {
+	width: 700px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  .flower-image {
+
+    margin-bottom: 10px;
+  }
+
+  .flower-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .flower-description {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .flower-price {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .size-options {
+    margin-bottom: 10px;
+  }
+
+  .size-options label {
+    margin-right: 10px;
+  }
+
+
+  .order-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .order-btn:hover {
+    background-color: #45a049;
+  }
+
+
+
+  .flower-article {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+
+  .availability {
+    font-size: 12px;
+    color: green;
+    display: flex;
+    align-items: center;
+  }
+
+  .checkmark {
+    margin-right: 5px;
+  }
+
+  .flower-info {
+    display: flex;
+    align-items: center;
+  }
+
+  .flower-image {
+    width: 30%;
+    height: auto;
+    margin-right: 20px;
+  }
+
+  .flower-details {
+    width: 70%;
+  }
+
+  .quantity {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    position: relative;
+  }
+
+  .quantity-input {
+    width: 40px;
+    text-align: center;
+    margin: 0;
+    padding-right: 40px;
+  }
+
+  .quantity-controls {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .minus-btn,
+  .plus-btn {
+    background-color: #f1f1f1;
+    border: none;
+    color: black;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .minus-btn:hover,
+  .plus-btn:hover {
+    background-color: #ddd;
+  }
+
+  .flower-meta {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+
+  .flower-article {
+    font-size: 14px;
+    margin-right: 10px;
+  }
+
+  .availability {
+    font-size: 12px;
+    color: green;
+    display: flex;
+    align-items: center;
+	padding-top: 9px;
+  }
+
+  .checkmark {
+    margin-right: 5px;
+  }

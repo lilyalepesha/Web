@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Задание 5</title>
+</head>
+
+<body>
+	<script>
+		var s1 = "Я люблю Беларусь";
+		var s2 = "Я учусь в Политехническом колледже";
+
+		// Определить длину строки S2
+		var lengthS2 = s2.length;
+
+		// Определить встречается ли в строке S1 слово "Гродно"
+		var isGrodnoPresent = s1.includes("Гродно");
+
+		// Выделить 2 символ в строке S2 и определить ASCII-код этого символа 
+		var n = 2;
+		var nthCharacter = s2.charAt(n - 1);
+		var asciiCode = nthCharacter.charCodeAt(0);
+
+		// Отображение результатов в теле HTML-документа
+		document.write("Длина строки S2: " + lengthS2 + "<br>");
+		document.write("Слово 'Гродно' встречается в строке S1: " + isGrodnoPresent + "<br>");
+		document.write("Выделенный " + n + "-ый символ в строке S2: " + nthCharacter + "<br>");
+		document.write("ASCII-код символа: " + asciiCode);
+
+	</script>
+</body>
+
+</html>

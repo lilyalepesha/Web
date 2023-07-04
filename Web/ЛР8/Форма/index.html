@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+
+<body>
+	<form class="contact-form">
+		<h1>Обратная связь</h1>
+
+		<div class="input-container">
+			<label for="message">Ваш эл. адрес <span style="color: red;">*</span></label>
+			<i class="fas fa-envelope "></i>
+			<input type="email" id="message" placeholder="Введите эл. адрес, на который мы пришлем ответ" required>
+		</div>
+
+		<div class="input-container">
+			<label for="message" style="font-weight: 100;">Ваше имя </label>
+			<div class="input-wrapper">
+				<i class="fas fa-pen"></i>
+				<input type="text" id="message" placeholder="Введите ваше имя">
+			</div>
+		</div>
+
+		<div class="input-container">
+			<label for="message">Текст сообщения <span style="color: red;">*</span></label>
+			<textarea id="message" placeholder="Оставьте свое сообщение для администрации" required></textarea>
+		</div>
+		<button type="submit">Отправить сообщение</button>
+
+	</form>
+
+</body>
+
+</html>
